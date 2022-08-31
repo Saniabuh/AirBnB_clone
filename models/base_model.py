@@ -4,11 +4,11 @@ from datetime import datetime
 from uuid import uuid4
 
 class BaseModel():
-	def __init__(self, name="", my_number=""):
+	def __init__(self):
 	     self.id = str(uuid4())
 	     self.created_at = datetime.now()
 	     self.updated_at = datetime.now()
-	     self.name = name
+	     self.name = __class__.__name__
 	     self.my_number = my_number
 	def __str__(self):
 		return "[{}] ({}) {}" .format(
@@ -19,6 +19,7 @@ class BaseModel():
 	    self.updated_at = datetime.now()
 
 	def to_dict(self):
+		
 	new_dict = self.__dict__
         new_dict['__class__'] = BaseModel.__name__
 	new_dict['created_at'] = new_dict['created_at'].isoformat()
