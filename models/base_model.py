@@ -9,7 +9,7 @@ import uuid
 date_format = "%Y-%m-%dT%H:%M:%S.%f"
 
 
-class BaseModel:
+class BaseModel():
     """
     Implementation of BaseModel class
     """
