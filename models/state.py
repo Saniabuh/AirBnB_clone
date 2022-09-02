@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""Defines the State class."""
+"""This module holds the state class"""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represent a state.
-    Attributes:
-        name (str): The name of the state.
-    """
+    """Implementation of the state class"""
 
     name = ""
