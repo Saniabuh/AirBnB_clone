@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """This module holds the city class"""
 
-from models.base_model import BaseModel
+"from models.base_model import BaseModel"
 from models.state import State
 
 
