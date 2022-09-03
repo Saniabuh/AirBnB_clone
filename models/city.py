@@ -17,4 +17,4 @@ class City(BaseModel):
     name = ""
     
 New = City()
- print(new)
+print(new)
