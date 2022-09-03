@@ -5,7 +5,7 @@ A subclass module of Basemodel
 located in the base_model.py
 """
 """from models.base_model import BaseModel"""
-from base_model import models
+from base_model import BaseModel
 
 
 class City(BaseModel):
