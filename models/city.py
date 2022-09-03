@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""This module holds the city class"""
 
-from base_model import BaseModel
-from models.state import State
+"""
+A subclass module of Basemodel
+located in the base_model.py
+"""
+from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Implementation of the city class"""
-
+    """
+    A subclass module of BaseModel
+    with some added attributes
+    """
     state_id = ""
     name = ""
