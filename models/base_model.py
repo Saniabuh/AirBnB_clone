@@ -2,6 +2,7 @@
 from datetime import datetime
 import models
 import uuid
+from base_model import model
 """
 A module that defines a base class
 with all common attributes/method for other classes
