@@ -65,5 +65,6 @@ class BaseModel():
         return new_dict
 
     def __str__(self):
-        """String representation of BaseModel instances"""
-        return f"[{type(self).__name__}] ({self.id}) {self.__dict__}"
+        """String representation of the BaseModel class"""
+        return "[{:s}] ({:s}) {}".format(self.__class__.__name__, self.id,
+                                         self.__dict__)
