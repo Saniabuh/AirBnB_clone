@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-"""contains a classinherits from Basemodel"""
 
-
+"""
+A subclass module of Basemodel
+located in the base_model.py
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """inherits from BaseModel"""
-
+    """
+    A subclass module of Basemodel
+    with some added attributes
+    """
     name = ""
