@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from datetime import datetime
-"""import models"""
+import models
 import uuid
 """
 A module that defines a base class
