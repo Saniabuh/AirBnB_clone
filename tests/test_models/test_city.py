@@ -5,7 +5,7 @@ This module contains unittests for class City
 
 from datetime import datetime
 import inspect
-from models import city
+from models.city import City
 from models.base_model import BaseModel
 import pep8
 import unittest
