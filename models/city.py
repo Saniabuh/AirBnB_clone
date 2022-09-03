@@ -15,5 +15,5 @@ class City(BaseModel):
     """
     state_id = ""
     name = ""
- new = City()
+new = City():
  print(new)
