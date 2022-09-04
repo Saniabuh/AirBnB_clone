@@ -7,11 +7,11 @@ Unittest classes:
     TestUser_to_dict
 """
 import os
-"""import models"""
+import models
 import unittest
 from datetime import datetime
 from time import sleep
-"""from models.user import User"""
+from models.user import User
 
 
 class TestUser_instantiation(unittest.TestCase):
