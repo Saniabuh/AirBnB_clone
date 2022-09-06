@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 """
 A subclass module of Basemodel
 located in the base_model.py
